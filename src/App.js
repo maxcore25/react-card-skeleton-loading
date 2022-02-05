@@ -1,7 +1,9 @@
+import CardPage from './pages/CardPage';
+
 function App() {
   return (
     <div className='App'>
-      <h1>hello</h1>
+      <CardPage />
     </div>
   );
 }
