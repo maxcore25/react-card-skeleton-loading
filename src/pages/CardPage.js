@@ -12,7 +12,14 @@ export default function CardPage() {
         alignItems: 'center',
         padding: '1rem',
       }}>
-      <Card mainImg={'http://source.unsplash.com/random'} />
+      <Card
+        mainImg={'http://source.unsplash.com/random/1'}
+        title={'Lorem ipsum dolor sit amet'}
+        subtitle={'Lorem ipsum dolor sit amet consectetur, adipisicing elit.'}
+        profilePic={'http://source.unsplash.com/random/2'}
+        author={'John Doe'}
+        date={'February 25, 2022'}
+      />
     </div>
   );
 }
