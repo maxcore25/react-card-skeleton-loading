@@ -20,3 +20,12 @@ textarea {
   font-family: inherit;
   font-size: 100%;
 }
+
+@keyframes loaderSwipeAnim {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
